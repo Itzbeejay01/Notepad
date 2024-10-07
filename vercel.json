@@ -1,10 +1,10 @@
 {
   "routes": [
     { "src": "/icon.png", "dest": "/api/icon.png" },
-    { "src": "/fetch", "dest": "/api/fetch.php" },
-    { "src": "/save", "dest": "/api/save.php" },
+    { "src": "/fetch", "dest": "/api/fetch.html" },
+    { "src": "/save", "dest": "/api/save.html" },
     { "src": "/fetch_entry", "dest": "/api/fetch_entry.php" },
     { "src": "/save_entry", "dest": "/api/save_entry.php" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
+    { "src": "/(.*)", "dest": "/api/index.html" }
   ]
 }
